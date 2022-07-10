@@ -1,10 +1,192 @@
-.header {
-  height: 200px;
-  background-color: #00cc99; }
+body {
+  background-color: #fffdc5; }
+
+h1 {
+  display: none; }
+
+h3 {
+  font-size: 20px;
+  color: #f7931e;
+  font-weight: 400;
+  z-index: 1000;
+  background-color: #fffdc5;
+  position: relative;
+  width: 450px;
+  margin: 0 auto; }
+
+.icon1 {
+  display: block;
+  width: 125px;
+  height: auto;
+  top: 30px;
+  right: 300px;
+  position: absolute;
+  z-index: 300; }
+
+.logo_bear {
+  width: 236px;
+  height: auto;
+  top: 160px;
+  right: 45px;
+  position: absolute;
+  z-index: 300; }
+
+.icon2 {
+  display: block;
+  top: 150px;
+  left: 236px;
+  position: absolute;
+  z-index: 300; }
+
+.icon3 {
+  display: block;
+  top: 283px;
+  left: 24px;
+  position: absolute;
+  z-index: 300; }
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  text-align: center; }
+
+.logo {
+  display: block;
+  margin: 100px auto 0px;
+  position: relative;
+  background-color: #fffdc5;
+  z-index: 400; }
+
+.company_name {
+  display: block;
+  margin: 64px auto 22px;
+  position: relative;
+  background-color: #fffdc5;
+  z-index: 400; }
+
+.little {
+  width: 47px;
+  height: auto;
+  top: 27px;
+  left: 28px;
+  position: absolute;
+  -webkit-transform: rotate(230deg);
+      -ms-transform: rotate(230deg);
+          transform: rotate(230deg); }
+
+.little2 {
+  width: 46px;
+  height: auto;
+  top: 26px;
+  left: 360px;
+  position: absolute;
+  -webkit-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+          transform: rotate(120deg); }
+
+.little3 {
+  width: 46px;
+  height: auto;
+  top: 174px;
+  left: 146px;
+  position: absolute;
+  -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+          transform: rotate(150deg); }
+
+.little4 {
+  width: 46px;
+  height: auto;
+  top: 370px;
+  left: 300px;
+  position: absolute;
+  -webkit-transform: rotate(280deg);
+      -ms-transform: rotate(280deg);
+          transform: rotate(280deg); }
+
+.little5 {
+  width: 46px;
+  height: auto;
+  top: 504px;
+  left: 161px;
+  position: absolute;
+  -webkit-transform: rotate(230deg);
+      -ms-transform: rotate(230deg);
+          transform: rotate(230deg); }
+
+.little6 {
+  width: 46px;
+  height: auto;
+  top: 79px;
+  right: 160px;
+  position: absolute;
+  -webkit-transform: rotate(230deg);
+      -ms-transform: rotate(230deg);
+          transform: rotate(230deg); }
+
+.little7 {
+  width: 46px;
+  height: auto;
+  top: 220px;
+  right: 43px;
+  position: absolute;
+  -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+          transform: rotate(150deg); }
+
+.little8 {
+  width: 46px;
+  height: auto;
+  top: 251px;
+  right: 321px;
+  position: absolute;
+  -webkit-transform: rotate(280deg);
+      -ms-transform: rotate(280deg);
+          transform: rotate(280deg); }
+
+.little9 {
+  width: 46px;
+  height: auto;
+  top: 413px;
+  right: 306px;
+  position: absolute;
+  -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+          transform: rotate(150deg); }
+
+.little10 {
+  width: 46px;
+  height: auto;
+  top: -10px;
+  right: 5px;
+  position: absolute;
+  -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+          transform: rotate(150deg); }
+
+.little11 {
+  width: 46px;
+  height: auto;
+  top: 350px;
+  left: 30px;
+  position: absolute;
+  -webkit-transform: rotate(215deg);
+      -ms-transform: rotate(215deg);
+          transform: rotate(215deg);
+  z-index: 500; }
 
 .footer {
-  height: 200px;
-  background-color: #00cc99; }
+  margin: 0 auto;
+  width: 90%;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ccc), color-stop(50%, #ccc), color-stop(80%, transparent));
+  background-image: -o-linear-gradient(left, #ccc 0%, #ccc 50%, transparent 80%);
+  background-image: linear-gradient(to right, #ccc 0%, #ccc 50%, transparent 80%);
+  background-size: 8px 1px;
+  background-repeat: repeat-x;
+  position: relative;
+  top: -15px;
+  z-index: 200; }
 
 .box {
   width: 100px;
@@ -18,6 +200,6 @@
   transition: all 0.5s; }
   .box:hover {
     width: 200px;
-    background-color: #00cc99; }
+    background-color: #fffdc5; }
 
 /*# sourceMappingURL=all.css.map */
