@@ -1,23 +1,251 @@
-$color: #00cc99;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
+*,*::after,*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
+body{
+    font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name_card > h1.name {
+  font-size: 80px;
+  line-height: 95px;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+
+.profile-pic {
+  border-top: 2px solid #000000;
+}
+
+.profile-pic img {
+    width: auto;
+    display: block;
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+.title-box > h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 48px;
+    padding-top: 16px;
+    padding-bottom: 7px;
+    display: inline-block;
+    > span {
+        font-size: 24px;
+        font-weight: bold;
+        color: #A00404;
+        display: inline-block;
+        line-height: 36px;
+        margin-left:16px;        
+    }
+}
+
+.content {
+    padding-top: 16px;
+    padding-bottom: 48px;
+    text-align: left;
+    border-top: solid 1px black;
+}
+
+.content p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.content .career {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+.back-ground p {
+    margin-bottom: 16px;
+}
+
+ 
+
+// skills
+// wrap
+.inner-wrap {
+    width: 996px;
+    margin: 0 auto;
+} 
+// skills - title
+.skills {
+    background-color: #415165;
+    color:#FFFFFF;
+}
+
+.skills .title {
+    text-align: center;
+}
+
+.skills .title h2{
+    font-size: 32px;
+    line-height: 48px;
+    padding-top: 24px;
+    padding-bottom: 7px;
+    > span {
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 16px;
+    }
+}
+// skills - details
+.skills_v{
+    border-top: solid #FFFFFF 1px;
+}
+
+.tree {
+  width: 225px;
+  margin: 0 auto;  
+  padding-bottom: 32px;
+}
+
+.tree ul {
+  list-style-type: none;
+  border-left: 1px solid #96A9C4;
+  margin-top: 40px;
+  padding-left: 24px;
+}
+
+.tree ul li {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+// working experience
+.work_experience {
+    padding-top: 48px;
+}
+.experience-tree {
+    margin-left: auto;
+    margin-right: auto;
+}
+.experience-tree ul {
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-left: 24px;
+}
+.experience-tree ul > li > h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.experience-tree ul > li img {
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+.experience-tree ul > li p {
+    width: 642px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.experience-tree ul > li {
+  margin-bottom: 24px;
+}
+.work_experience {
+  padding-bottom: 8px;
+}
+
+// footer
+.footer{
+  background-color: #415165;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footer h2{
+  font-size: 32px;
+  line-height: 48px;
+  padding-top: 24px;
+  padding-bottom: 7px;
+  > span {
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 16px;
   }
+}
+
+.footer .content-title{
+  border-top: 1px solid #FFFFFF;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.footer .content-title p{
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+  font-weight: lighter;
+}
+.footer .social-img {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+.footer .content-title img{
+  margin-left: 12px;
+  margin-right: 12px;
+  display: block;
 }
