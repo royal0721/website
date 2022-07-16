@@ -207,18 +207,9 @@ body {
   margin-bottom: 16px;
   font-weight: lighter; }
 
-.footer .social-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: auto; }
-
 .footer .content-title img {
   margin-left: 12px;
   margin-right: 12px;
-  display: block; }
+  display: inline-block; }
 
 /*# sourceMappingURL=all.css.map */
