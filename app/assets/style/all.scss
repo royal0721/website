@@ -208,12 +208,12 @@ body{
 }
 
 // footer
-.footer{
+.footer {
   background-color: #415165;
   text-align: center;
   color: #FFFFFF;
 }
-.footer h2{
+.footer h2 {
   font-size: 32px;
   line-height: 48px;
   padding-top: 24px;
@@ -225,7 +225,7 @@ body{
   }
 }
 
-.footer .content-title{
+.footer .content-title {
   border-top: 1px solid #FFFFFF;
   width: 1200px;
   margin-left: auto;
@@ -233,19 +233,15 @@ body{
   padding-top: 24px;
   padding-bottom: 40px;
 }
-.footer .content-title p{
+.footer .content-title p {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 16px;
   font-weight: lighter;
 }
-.footer .social-img {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-}
-.footer .content-title img{
+
+.footer .content-title img { 
   margin-left: 12px;
   margin-right: 12px;
-  display: block;
+  display: inline-block;
 }
