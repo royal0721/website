@@ -53,9 +53,14 @@ table {
     box-sizing: border-box;
 }
 
-body{
-    font-family: sans-serif;
+img {
+  display: block;
+ }
+
+body {
+    font-family: "SF Pro Text","Microsoft JhengHei";
 }
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -75,7 +80,6 @@ body{
 
 .profile-pic img {
     width: auto;
-    display: block;
     padding-top: 48px;
     padding-bottom: 32px;
 }
@@ -104,7 +108,7 @@ body{
     border-top: solid 1px black;
 }
 
-.content p {
+.content li {
     font-size: 24px;
     line-height: 36px;
 }
@@ -115,7 +119,7 @@ body{
     margin-top: 24px;
 }
 
-.back-ground p {
+.back-ground li {
     margin-bottom: 16px;
 }
 
@@ -137,7 +141,7 @@ body{
     text-align: center;
 }
 
-.skills .title h2{
+.skills .title h2 {
     font-size: 32px;
     line-height: 48px;
     padding-top: 24px;
@@ -151,22 +155,17 @@ body{
 // skills - details
 .skills_v{
     border-top: solid #FFFFFF 1px;
+    padding-bottom: 32px;
 }
 
 .tree {
-  width: 225px;
-  margin: 0 auto;  
-  padding-bottom: 32px;
-}
-
-.tree ul {
-  list-style-type: none;
   border-left: 1px solid #96A9C4;
-  margin-top: 40px;
+  width: 225px;
+  margin: 40px auto 0 auto;  
   padding-left: 24px;
 }
 
-.tree ul li {
+.tree li {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 8px;
@@ -193,7 +192,6 @@ body{
 .experience-tree ul > li img {
     height: 100px;
     width: 100px;
-    display: block;
 }
 .experience-tree ul > li p {
     width: 642px;
@@ -233,11 +231,17 @@ body{
   padding-top: 24px;
   padding-bottom: 40px;
 }
-.footer .content-title p {
+.footer .content-title li {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 16px;
   font-weight: lighter;
+  color: #FFFFFF;
+}
+
+.footer .content-title li > a{
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .footer .content-title img { 
