@@ -49,8 +49,11 @@ table {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+img {
+  display: block; }
+
 body {
-  font-family: sans-serif; }
+  font-family: "SF Pro Text","Microsoft JhengHei"; }
 
 .container {
   width: 1200px;
@@ -68,7 +71,6 @@ body {
 
 .profile-pic img {
   width: auto;
-  display: block;
   padding-top: 48px;
   padding-bottom: 32px; }
 
@@ -93,7 +95,7 @@ body {
   text-align: left;
   border-top: solid 1px black; }
 
-.content p {
+.content li {
   font-size: 24px;
   line-height: 36px; }
 
@@ -102,7 +104,7 @@ body {
   line-height: 36px;
   margin-top: 24px; }
 
-.back-ground p {
+.back-ground li {
   margin-bottom: 16px; }
 
 .inner-wrap {
@@ -127,20 +129,16 @@ body {
     margin-left: 16px; }
 
 .skills_v {
-  border-top: solid #FFFFFF 1px; }
-
-.tree {
-  width: 225px;
-  margin: 0 auto;
+  border-top: solid #FFFFFF 1px;
   padding-bottom: 32px; }
 
-.tree ul {
-  list-style-type: none;
+.tree {
   border-left: 1px solid #96A9C4;
-  margin-top: 40px;
+  width: 225px;
+  margin: 40px auto 0 auto;
   padding-left: 24px; }
 
-.tree ul li {
+.tree li {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 8px; }
@@ -164,8 +162,7 @@ body {
 
 .experience-tree ul > li img {
   height: 100px;
-  width: 100px;
-  display: block; }
+  width: 100px; }
 
 .experience-tree ul > li p {
   width: 642px;
@@ -201,11 +198,16 @@ body {
   padding-top: 24px;
   padding-bottom: 40px; }
 
-.footer .content-title p {
+.footer .content-title li {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 16px;
-  font-weight: lighter; }
+  font-weight: lighter;
+  color: #FFFFFF; }
+
+.footer .content-title li > a {
+  text-decoration: none;
+  color: #FFFFFF; }
 
 .footer .content-title img {
   margin-left: 12px;
