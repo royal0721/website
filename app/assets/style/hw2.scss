@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(css_reset.css);
+
+body {
+    font-family: "Roboto" , "Microsoft JhengHei";
+}
+
+img {
+  display: block;
+}
+
+.header {
+    height: 100vh;
+    background: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png) center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameCard li {
+    color: #FFF;
+    font-style: italic;
+}
+ 
+.nameCard > li.text > p {
+    font-size: 24px;
+    line-height: 42px;
+} 
+.nameCard > li.name > h1{
+    font-size: 80px;
+    line-height: 102px;
+} 
+.nameCard > li.jobTitle {
+    padding-top: 32px;
+}
+.nameCard > li.jobTitle > p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.nameCard .socialImg {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.aboutCard {
+    text-align: center;
+    font-style: italic;
+}
+
+.aboutCard > h2 {
+    padding-top: 56px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.aboutCard > img {
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+
+.aboutCard > ul li p {
+    font-size: 24px;
+    line-height: 42px;  
+    padding-bottom: 4px;
+}
+
+.aboutCard > ul li.text-bottom p{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 36px;
+}
+
+.work-experience {
+    margin-top: 20px;
+    padding-bottom: 56px;
+    border-top: 1px solid #000000;
+}
+
+.work-experience li {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+.listIcon {
+    background-color: #891818;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
