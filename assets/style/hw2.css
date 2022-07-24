@@ -11,7 +11,7 @@ img {
   display: block; }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 .header {
@@ -35,18 +35,18 @@ img {
 .nameCard li {
   color: #FFF; }
 
-.nameCard > li.text > p {
+.nameCard li.text > p {
   font-size: 24px;
   line-height: 42px; }
 
-.nameCard > li.name > h1 {
+.nameCard li.name > h1 {
   font-size: 80px;
   line-height: 102px; }
 
-.nameCard > li.jobTitle {
+.nameCard li.jobTitle {
   padding-top: 32px; }
 
-.nameCard > li.jobTitle > p {
+.nameCard li.jobTitle > p {
   font-size: 24px;
   line-height: 36px; }
 
@@ -71,51 +71,45 @@ img {
 
 .aboutCard {
   text-align: center; }
-
-.aboutCard > h2 {
-  padding-top: 56px;
-  padding-bottom: 40px;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 84px; }
-
-.aboutCard > img {
-  padding-bottom: 20px;
-  margin: 0 auto; }
-
-.aboutCard > ul li p {
-  font-size: 24px;
-  line-height: 42px;
-  padding-bottom: 4px; }
-
-.aboutCard > ul li.textBottom p {
-  padding-top: 4px;
-  padding-bottom: 4px;
-  line-height: 36px; }
+  .aboutCard h2 {
+    padding-top: 56px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px; }
+  .aboutCard img {
+    padding-bottom: 20px;
+    margin: 0 auto; }
+  .aboutCard ul li p {
+    font-size: 24px;
+    line-height: 42px;
+    padding-bottom: 4px; }
+  .aboutCard ul li.textBottom p {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 36px; }
 
 .workExperience {
   margin-top: 20px;
   padding-bottom: 56px;
   border-top: 1px solid #000000; }
-
-.workExperience li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 28px; }
-
-.listIcon {
-  background-color: #891818;
-  height: 22px;
-  width: 22px;
-  border-radius: 50%;
-  margin-right: 16px; }
+  .workExperience li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 28px; }
+    .workExperience li .listIcon {
+      background-color: #891818;
+      height: 22px;
+      width: 22px;
+      border-radius: 50%;
+      margin-right: 16px; }
 
 li.contentTitle > h2 {
   font-size: 64px;
@@ -166,11 +160,9 @@ li.contentTitle > h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
   .works ul > li h2, .works p {
     margin: 0 auto; }
   .works ul > li.workDetails p {
@@ -178,6 +170,9 @@ li.contentTitle > h2 {
     line-height: 30px;
     padding-top: 16px;
     padding-bottom: 56px; }
+  .works ul > li.workImage {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .works ul > li.workImage .workCard {
     display: -webkit-box;
     display: -ms-flexbox;
