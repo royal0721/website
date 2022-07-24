@@ -6,6 +6,7 @@
 
 body {
     font-family: "Roboto" , "Microsoft JhengHei";
+    font-style: italic;
 }
 
 img {
@@ -24,7 +25,6 @@ img {
 
 .nameCard li {
     color: #FFF;
-    font-style: italic;
 }
  
 .nameCard > li.text > p {
@@ -58,7 +58,6 @@ img {
 
 .aboutCard {
     text-align: center;
-    font-style: italic;
 }
 
 .aboutCard > h2 {
@@ -81,19 +80,19 @@ img {
     padding-bottom: 4px;
 }
 
-.aboutCard > ul li.text-bottom p{
+.aboutCard > ul li.textBottom p{
     padding-top: 4px;
     padding-bottom: 4px;
     line-height: 36px;
 }
 
-.work-experience {
+.workExperience {
     margin-top: 20px;
     padding-bottom: 56px;
     border-top: 1px solid #000000;
 }
 
-.work-experience li {
+.workExperience li {
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -106,4 +105,101 @@ img {
     width: 22px;
     border-radius: 50%;
     margin-right: 16px;
+}
+
+li.contentTitle > h2 {
+    font-size: 64px;
+    line-height: 84px;
+    padding-top: 56px;
+}
+
+.brand {
+    background-color: #000000;
+    color:#FFF;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+
+    & > ul li {
+        display: flex;
+        justify-content: center;
+    }
+    & > ul li > p {
+        font-size: 24px;
+        line-height: 42px;
+        padding-top: 12px;
+    }
+    & > ul li.brandDetails > p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 32px;
+        padding-bottom: 68px;
+    }
+    & > ul li.brandImage {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    & > ul li.brandImage img {
+        padding-bottom: 40px;
+        padding-left: 24px;
+    }
+}
+
+.works {
+    padding-bottom: 96px;
+    
+    & ul > li { 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    & ul > li.workDetails p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 16px;
+        padding-bottom: 56px;
+    }
+    & ul > li.workImage .workCard{
+        display: flex;
+        flex-direction: column;
+        & img {
+            padding-right: 12px;
+            padding-left: 12px;
+        }
+        & p {
+            font-size: 20px;
+            line-height: 42px;
+            padding-top: 16px;
+            padding-bottom: 48px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.footer {
+    background: #000000;
+    color: white;
+    padding-bottom: 48px;
+    & ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    & li > h2 {
+        font-size: 64px;
+        line-height: 84px;
+        padding-top: 64px;
+        padding-bottom: 16px;
+    }
+    & li > p {
+        font-size: 24px;
+        line-height: 36px;
+        padding-bottom: 16px;
+        font-weight: 500;
+        & a {
+            text-decoration: none;
+            color: #FFF;
+        }
+    }
 }
